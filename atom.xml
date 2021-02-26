@@ -2,16 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wcsdf.github.io</id>
     <title>我吃三頓飯</title>
-    <updated>2021-02-26T06:10:44.713Z</updated>
+    <updated>2021-02-26T08:22:20.445Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wcsdf.github.io"/>
     <link rel="self" href="https://wcsdf.github.io/atom.xml"/>
-    <subtitle>今日詩詞
-
-</subtitle>
+    <subtitle>&lt;span id=&quot;jinrishici-sentence&quot;&gt;正在加载今日诗词....&lt;/span&gt;
+&lt;script src=&quot;https://sdk.jinrishici.com/v2/browser/jinrishici.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</subtitle>
     <logo>https://wcsdf.github.io/images/avatar.png</logo>
     <icon>https://wcsdf.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 我吃三頓飯</rights>
+    <entry>
+        <title type="html"><![CDATA[大傻子]]></title>
+        <id>https://wcsdf.github.io/post/da-sha-zi/</id>
+        <link href="https://wcsdf.github.io/post/da-sha-zi/">
+        </link>
+        <updated>2021-02-26T08:21:23.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://wcsdf.github.io/post/hello-gridea/</id>
