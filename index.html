@@ -8,7 +8,7 @@
 &lt;script src=&#34;https://sdk.jinrishici.com/v2/browser/jinrishici.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://wcsdf.github.io/favicon.ico?v=1614329022427">
+<link rel="shortcut icon" href="https://wcsdf.github.io/favicon.ico?v=1614390441377">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
@@ -102,32 +102,6 @@
     </div>
   </article>
 
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://wcsdf.github.io/post/hello-gridea/">Hello Gridea</a>
-    </h2>
-    <p class="article-meta">
-      2018-12-12
-      
-        <a href="https://wcsdf.github.io/tag/sJNihVbHR/" class="badge secondary">
-          Gridea
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-    </p>
-    <div class="row">
-      <a href="https://wcsdf.github.io/post/hello-gridea/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
 
         </div>
         
@@ -140,7 +114,7 @@
       
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://wcsdf.github.io/images/avatar.png?v=1614329022427" class="no-responsive avatar">
+    <img src="https://wcsdf.github.io/images/avatar.png?v=1614390441377" class="no-responsive avatar">
     <div class="text-muted"><span id="jinrishici-sentence">正在加载今日诗词....</span>
 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></div>
     <div class="social-container">
@@ -170,12 +144,6 @@
             </li>
           
         
-          
-            <li>
-              <a href="https://wcsdf.github.io/post/hello-gridea/">Hello Gridea</a>
-            </li>
-          
-        
       </ul>
     </div>
   </div>
@@ -185,14 +153,20 @@
     </div>
     <div class="row">
       
-        <a href="https://wcsdf.github.io/tag/sJNihVbHR/" class="badge warning">
-          Gridea
-        </a>
-      
     </div>
   </div>
   <div class="paper">
-     | <a class="rss" href="https://wcsdf.github.io/atom.xml" target="_blank">RSS</a>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<div id="poem_sentence"></div>
+<div id="poem_info"></div>
+<script type="text/javascript">
+  jinrishici.load(function(result) {
+    var sentence = document.querySelector("#poem_sentence")
+    var info = document.querySelector("#poem_info")
+    sentence.innerHTML = result.data.content
+    info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+  });
+</script> | <a class="rss" href="https://wcsdf.github.io/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
 
